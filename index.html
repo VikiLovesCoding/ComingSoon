@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            background-color: #d3e3f3; /* Slightly darker blue */
+            text-align: center;
+            padding: 20px;
+        }
+
+        #comingSoonLabel {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #goBackButton {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="comingSoonLabel">Coming Soon</div>
+
+<button id="goBackButton" onclick="goBack()">Go Back</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
